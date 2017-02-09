@@ -353,7 +353,7 @@ def produce():
             f.line('Copyright (c) 2017 %s', name)
 
             with open_file('LICENSE') as license:
-                for s in license.read().splitlines()[6:]:
+                for s in license.read().splitlines()[3:]:
                     f.line('%s', s)
 
         line('')
